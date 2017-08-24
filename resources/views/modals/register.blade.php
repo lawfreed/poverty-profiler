@@ -29,13 +29,14 @@
 					</div>
 				</div>
 				<div class="ui tiny fluid buttons">					
-					<button class="ui labeled icon teal button" type="submit">
+					<button class="ui teal button" type="submit">
 						<i class="circle notched icon"></i>
 						Submit
 					</button>
 					<div class="or"></div>
-					<button class="ui right labeled icon button" type="reset">
-						<i class="refresh icon"></i>Reset
+					<button class="ui button" type="reset">
+						<i class="refresh icon"></i>
+						Reset
 					</button>
 				</div>
 			</form>
