@@ -1,0 +1,27 @@
+#contain {
+	margin-top: 2%;
+}
+
+h4 {
+	padding: 7px 0;
+	text-align: center;
+	font-size: x-small;
+	background-color: #f2f2f2;
+}
+
+#foot {
+	margin-top: 13%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+#logo {
+	width: 15px;
+	height: 15px;
+}
+
+.marginal {
+	margin-left: 7px;
+}
