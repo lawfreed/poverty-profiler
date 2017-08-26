@@ -32,6 +32,7 @@
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="semantic-ui/semantic.min.js"></script>
 <script type="text/javascript" src="js/dropdown.js"></script>
+<script type="text/javascript" src="js/calendar.min.js"></script>
 <script type="text/javascript" src="js/tab.js"></script>
 <script type="text/javascript" src="js/dimmer.js"></script>
 <script type="text/javascript" src="js/modal.js"></script>

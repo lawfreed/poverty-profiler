@@ -12,3 +12,8 @@ $('#register-trigger-modal').click(function() {
 $('#login-trigger-modal').click(function() {
 	$('#login-event-modal').modal('show');
 });
+
+// Form Date Created
+$('#form-date-created').calendar({
+	type: 'date'
+});
