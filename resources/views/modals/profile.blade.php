@@ -1,5 +1,3 @@
-
-
 <div class="ui fullscreen modal" id="profile-event-modal">
 	<div class="ui actions headers">
 		<div class="ui left floated header">
@@ -13,7 +11,7 @@
 				<div class="ui fields">
 					<div class="field">
 						<div class="ui left corner labeled input">
-							<input type="text" placeholder="Enter Household Name">
+							<input type="text" placeholder="Enter Household Name" required="true">
 							<div class="ui left corner label">
 								<i class="asterisk icon"></i>
 							</div>
@@ -23,7 +21,7 @@
 						<div class="ui calendar" id="form-date-created">
 							<div class="ui icon input">
 								<i class="calendar icon"></i>
-								<input type="text" placeholder="Date">
+								<input type="text" placeholder="Date" required="true">
 							</div>
 						</div>
 					</div>
@@ -32,10 +30,12 @@
 				<div>
 					<table class="ui structured celled table">
 						@include('modals.tables.demography')
+						@include('modals.tables.economic')
 					</table>
 				</div>
 				<!-- End Structure -->
-				<div class="ui tiny fluid buttons">					
+				<br>
+				<div class="ui tiny fluid buttons" id="profile-submit-button">					
 					<button class="ui teal button" type="submit">
 						<i class="save icon"></i>
 						Save

@@ -2,6 +2,10 @@
 	margin-top: 2%;
 }
 
+#fully-immunized-children-box {
+	border: 1px solid #d1d1d1;
+}
+
 h4 {
 	padding: 7px 0;
 	text-align: center;
