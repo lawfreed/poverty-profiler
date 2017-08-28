@@ -27,15 +27,29 @@
 					</div>
 				</div>
 				<!-- Start Structure -->
-				<div>
-					<table class="ui structured celled table">
-						@include('modals.tables.demography')
-						@include('modals.tables.economic')
-					</table>
+				<div class="ui top attached segment">
+					<div class="ui active tab" data-tab="page-one">
+						<table class="ui structured celled table">
+							@include('modals.tables.page-one')
+						</table>
+					</div>
+					<div class="ui tab" data-tab="page-two">
+						<table class="ui structured celled table">
+							@include('modals.tables.page-two')
+						</table>
+					</div>
+				</div>
+				<div class="ui bottom attached master tabular menu" id="bottom-attached-tab-margin">
+					<a class="item active" data-tab="page-one">
+						Page 1
+					</a>
+					<a class="item" data-tab="page-two">
+						Page 2
+					</a>
 				</div>
 				<!-- End Structure -->
 				<br>
-				<div class="ui tiny fluid buttons" id="profile-submit-button">					
+				<div class="ui tiny buttons" id="profile-submit-button">					
 					<button class="ui teal button" type="submit">
 						<i class="save icon"></i>
 						Save
