@@ -5,10 +5,10 @@
 		<th colspan="4">III Social Adequacy</th>
 	</tr>
 	<tr class="header-bottom-border">
-		<td class="two wide column"><em>Population</em> in Age Bracket</td>
-		<td class="two wide column">Male</td>
-		<td class="two wide column">Female</td>
-		<td class="two wide column">Total</td>
+		<td class="five wide column"><em>Population</em> in Age Bracket</td>
+		<td class="one wide column">Male</td>
+		<td class="one wide column">Female</td>
+		<td class="one wide column">Total</td>
 		<td></td>
 		<td colspan="2"><em>Health, (Source of Data-CHO/BHW)</em></td>
 	</tr>

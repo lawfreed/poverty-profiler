@@ -39,26 +39,22 @@
 						</table>
 					</div>
 				</div>
-				<div class="ui bottom attached master tabular menu" id="bottom-attached-tab-margin">
+				<div class="ui bottom attached master two item tabular menu">
 					<a class="item active" data-tab="page-one">
-						Page 1
+						<span class="active-select">Page 1</span>
 					</a>
 					<a class="item" data-tab="page-two">
-						Page 2
+						<span class="active-select">Page 2</span>
 					</a>
 				</div>
 				<!-- End Structure -->
 				<br>
-				<div class="ui tiny buttons" id="profile-submit-button">					
-					<button class="ui teal button" type="submit">
-						<i class="save icon"></i>
-						Save
-					</button>
-					<div class="or"></div>
-					<button class="ui icon button" type="reset">
-						<i class="refresh icon"></i>
-						Reset
-					</button>
+				<div id="circular-button-div">
+					<div class="ui center aligned grid">
+						<button class="ui teal circular icon button" type="submit" data-tooltip="DONE!">
+							<i class="check icon"></i>
+						</button>
+					</div>
 				</div>
 			</form>
 		</div>

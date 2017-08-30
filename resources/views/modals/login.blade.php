@@ -15,7 +15,7 @@
 				</div>
 				<div class="field">
 					<div class="ui left icon input">
-						<i class="lock icon"></i><input id="password" name="password" placeholder="Password" type="password" />
+						<i class="lock icon"></i><input id="password" name="password" placeholder="Password" type="password" required="true" />
 					</div>
 				</div>				
 					<button class="ui fluid teal button" type="submit">
