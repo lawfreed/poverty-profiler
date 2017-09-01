@@ -25,7 +25,7 @@
 	@include('modals.profile')
 	@include('modals.register')
 	@include('modals.login')
-	<!-- ./Modals -->
+	<!-- ~./Modals -->
 	@include('partials.footer')
 </body>
 
@@ -36,4 +36,5 @@
 <script type="text/javascript" src="js/tab.js"></script>
 <script type="text/javascript" src="js/dimmer.js"></script>
 <script type="text/javascript" src="js/modal.js"></script>
+<script type="text/javascript" src="js/total-calculator.js"></script>
 </html>
