@@ -3,7 +3,7 @@
 		<td class="seven wide column"><span class="padding-fifteen"><strong>HH Solid Waste Disposal Practices</strong></span></td>
 		<td class="one wide column"></td>
 		<td></td>
-		<td class="five wide column"><span class="padding-fifteen"><strong>Educatin and Literacy</strong></span></td>
+		<td class="five wide column"><span class="padding-fifteen"><strong>Education and Literacy</strong></span></td>
 		<td class="one wide column"><strong>Male</strong></td>
 		<td class="one wide column"><strong>Female</strong></td>
 		<td class="one wide column"><strong>Total</strong></td>
@@ -15,27 +15,27 @@
 		<td><span class="checkbox-padding"><input class="ui checkbox" type="checkbox" name="burning-disposal"></span></td>
 		<td></td>
 		<td><span class="padding-twenty-five">Children 6—11 yrs. old NOT in school</span></td>
-		<td><input type="number" name="education-literacy-611-male"></td>
-		<td><input type="number" name="education-literacy-611-female"></td>
-		<td>Display Total</td>
+		<td><input class="education-literacy-611" type="number" name="education-literacy-611-male"></td>
+		<td><input class="education-literacy-611" type="number" name="education-literacy-611-female"></td>
+		<td><span class="ui transparent disabled input"><input id="education-literacy-611-total"></span></td>
 	</tr>
 	<tr>
 		<td><span class="padding-fourty-five"></span>Burying</td>
 		<td><span class="checkbox-padding"><input class="ui checkbox" type="checkbox" name="burying-disposal"></span></td>
 		<td></td>
 		<td><span class="padding-twenty-five">Children 12—15 yrs. old NOT in school</span></td>
-		<td><input type="number" name="education-literacy-1215-male"></td>
-		<td><input type="number" name="education-literacy-1215-female"></td>
-		<td>Display Total</td>
+		<td><input class="education-literacy-1215" type="number" name="education-literacy-1215-male"></td>
+		<td><input class="education-literacy-1215" type="number" name="education-literacy-1215-female"></td>
+		<td><span class="ui transparent disabled input"><input id="education-literacy-1215-total"></span></td>
 	</tr>
 	<tr>
 		<td><span class="padding-fourty-five"></span>Composit Pit</td>
 		<td><span class="checkbox-padding"><input class="ui checkbox" type="checkbox" name="composit-pit-disposal"></span></td>
 		<td></td>
 		<td><span class="padding-twenty-five">No. of Out of School Youth <em>(16-30 yrs. old)</em></span></td>
-		<td><input type="number" name="education-literacy-oosy-male"></td>
-		<td><input type="number" name="education-literacy-oosy-female"></td>
-		<td>Display Total</td>
+		<td><input class="education-literacy-oosy" type="number" name="education-literacy-oosy-male"></td>
+		<td><input class="education-literacy-oosy" type="number" name="education-literacy-oosy-female"></td>
+		<td><span class="ui transparent disabled input"><input id="education-literacy-oosy-total"></span></td>
 	</tr>
 	<tr>
 		<td><span class="padding-fourty-five"></span>Collected</td>
@@ -122,27 +122,27 @@
 		<td><input type="number" name="tenure-mortgaged"></td>
 		<td></td>
 		<td colspan="3"><span class="padding-seventy">Flood</span></td>
-		<td><input type="number" name="hazard-area-flood"></td>
+		<td><span class="checkbox-padding"><input class="ui checkbox" type="checkbox" name="hazard-area-flood"></span></td>
 	</tr>
 	<tr>
 		<td><span class="padding-seventy">Rent</span></td>
 		<td><input type="number" name="tenure-rent"></td>
 		<td></td>
 		<td colspan="3"><span class="padding-seventy">Landslide</span></td>
-		<td><input type="number" name="hazard-area-landslide"></td>
+		<td><span class="checkbox-padding"><input class="ui checkbox" type="checkbox" name="hazard-area-landslide"></span></td>
 	</tr>
 	<tr>
 		<td><span class="padding-seventy">Rent free w/ owner's consent</span></td>
 		<td><input type="number" name="tenure-rent-free"></td>
 		<td></td>
 		<td colspan="3"><span class="padding-seventy">Sea level rise</span></td>
-		<td><input type="number" name="hazard-area-sea-level-rise"></td>
+		<td><span class="checkbox-padding"><input class="ui checkbox" type="checkbox" name="hazard-area-sea-level-rise"></span></td>
 	</tr>
 	<tr>
 		<td colspan="2"><span class="padding-seventy">Informal Settlers</span></td>
 		<td></td>
 		<td colspan="3"><span class="padding-seventy">Storm surge</span></td>
-		<td><input type="number" name="hazard-area-storm-surge"></td>
+		<td><span class="checkbox-padding"><input class="ui checkbox" type="checkbox" name="hazard-area-storm-surge"></span></td>	
 	</tr>
 	<tr>
 		<td><span class="padding-hundred">Road Right of Way</span></td>
@@ -247,7 +247,7 @@
 	</tr>
 	<tr>
 		<td><span class="padding-fourty-five">Concrete</span></td>
-		<td><input type="number" name="housing-structure-concrete"></td>
+		<td><span class="checkbox-padding"><input class="ui checkbox" type="checkbox" name="housing-structure-concrete"></span></td>
 		<td></td>
 		<!-- Start VAWC Desk Radio Checkbox -->
 		<td colspan="4" rowspan="2">
@@ -269,25 +269,25 @@
 	</tr>
 	<tr>
 		<td><span class="padding-fourty-five">Semi-concrete</span></td>
-		<td><input type="number" name="housing-structure-semi-concrete"></td>
+		<td><span class="checkbox-padding"><input class="ui checkbox" type="checkbox" name="housing-structure-semi-concrete"></span></td>
 		<td></td>
 	</tr>
 	<tr>
 		<td><span class="padding-fourty-five">Light materials</span></td>
-		<td><input type="number" name="housing-structure-light-materials"></td>
+		<td><span class="checkbox-padding"><input class="ui checkbox" type="checkbox" name="housing-structure-light-materials"></span></td>
 		<td></td>
 		<td colspan="3"><span class="padding-twenty-five">No. of VAWC cases reported</span></td>
 		<td><input type="number" name="no-vawc-cases-reported"></td>
 	</tr>
 	<tr>
 		<td><span class="padding-fourty-five">Shanty / Payag</span></td>
-		<td><input type="number" name="housing-structure-shanty"></td>
+		<td><span class="checkbox-padding"><input class="ui checkbox" type="checkbox" name="housing-structure-shanty"></span></td>
 		<td></td>
 		<td colspan="4"></td>
 	</tr>
 	<tr>
 		<td><span class="padding-fourty-five">Salvaged Materials</span></td>
-		<td><input type="number" name="housing-structure-salvaged-materials"></td>
+		<td><span class="checkbox-padding"><input class="ui checkbox" type="checkbox" name="housing-structure-salvaged-materials"></span></td>
 		<td></td>
 		<td colspan="4"><span class="padding-fifteen"><strong>Birth Registration of All HH Members</strong></span></td>
 	</tr>

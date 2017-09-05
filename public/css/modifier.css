@@ -72,12 +72,16 @@ span.active-select:hover {
 	padding-left: 35%;
 }
 
+.checkbox-padding-pw {
+	padding-left: 45%;
+}
+
 .marginal {
 	margin-left: 7px;
 }
 
 .disabled {
-	padding-left: 7%;
+	padding-left: 6%;
 }
 
 

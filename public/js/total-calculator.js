@@ -118,6 +118,9 @@ $('.value-9').keyup(function() {
     });
 })
 
+// Total of all value-n
+
+
 $('.no-infant-deaths').keyup(function() {
     var result = 0;
     $('#no-infant-deaths-total').attr('value', function() {
@@ -182,6 +185,54 @@ $('.no-children-no-vaccine').keyup(function() {
     var result = 0;
     $('#no-children-no-vaccine-total').attr('value', function() {
         $('.no-children-no-vaccine').each(function() {
+            if ($(this).val() !== '') {
+                result += parseInt($(this).val());
+            }
+        });
+        return result;
+    });
+})
+
+$('.sanitation-practices').keyup(function() {
+    var result = 0;
+    $('#sanitation-practices-total').attr('value', function() {
+        $('.sanitation-practices').each(function() {
+            if ($(this).val() !== '') {
+                result += parseInt($(this).val());
+            }
+        });
+        return result;
+    });
+})
+
+$('.education-literacy-611').keyup(function() {
+    var result = 0;
+    $('#education-literacy-611-total').attr('value', function() {
+        $('.education-literacy-611').each(function() {
+            if ($(this).val() !== '') {
+                result += parseInt($(this).val());
+            }
+        });
+        return result;
+    });
+})
+
+$('.education-literacy-1215').keyup(function() {
+    var result = 0;
+    $('#education-literacy-1215-total').attr('value', function() {
+        $('.education-literacy-1215').each(function() {
+            if ($(this).val() !== '') {
+                result += parseInt($(this).val());
+            }
+        });
+        return result;
+    });
+})
+
+$('.education-literacy-oosy').keyup(function() {
+    var result = 0;
+    $('#education-literacy-oosy-total').attr('value', function() {
+        $('.education-literacy-oosy').each(function() {
             if ($(this).val() !== '') {
                 result += parseInt($(this).val());
             }

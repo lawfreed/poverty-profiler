@@ -18,7 +18,7 @@
 		<td><span class="padding-twenty-five">Below 1</span></td>
 		<td><input class="value-1" type="number" name="age-bracket-male-col-1"></td>
 		<td><input class="value-1" type="number" name="age-bracket-female-col-1"></td>
-		<td><span class="ui transparent disabled input"><input id="age-bracket-col-1-total"></span></td>
+		<td><span class="ui transparent disabled input"><input class="n-value-total" id="age-bracket-col-1-total"></span></td>
 		<td></td>
 		<td><span class="padding-twenty-five"><strong>No. of Maternal Deaths</strong></span></td>
 		<td><input type="number" name="no-maternal-deaths"></td>
@@ -27,7 +27,7 @@
 		<td><span class="padding-twenty-five">1—2</span></td>
 		<td><input class="value-2" type="number" name="age-bracket-male-col-2"></td>
 		<td><input class="value-2" type="number" name="age-bracket-female-col-2"></td>
-		<td><span class="ui transparent disabled input"><input id="age-bracket-col-2-total"></span></td>
+		<td><span class="ui transparent disabled input"><input class="n-value-total" id="age-bracket-col-2-total"></span></td>
 		<td></td>
 		<td colspan="4"><span class="padding-twenty-five"><strong>No. of Teenage Pregnancy</strong></span></td>
 	</tr>
@@ -35,7 +35,7 @@
 		<td><span class="padding-twenty-five">3—5</span></td>
 		<td><input class="value-3" type="number" name="age-bracket-male-col-3"></td>
 		<td><input class="value-3" type="number" name="age-bracket-female-col-3"></td>
-		<td><span class="ui transparent disabled input"><input id="age-bracket-col-3-total"></span></td>
+		<td><span class="ui transparent disabled input"><input type="number" class="n-value-total" id="age-bracket-col-3-total"></span></td>
 		<td></td>
 		<td><span class="padding-seventy">Below 15</span></td>
 		<td><input class="no-teenage-pregnancy" type="number" name="no-teenage-pregnancy-below-15"></td>
@@ -44,7 +44,7 @@
 		<td><span class="padding-twenty-five">6—11</span></td>
 		<td><input class="value-4" type="number" name="age-bracket-male-col-4"></td>
 		<td><input class="value-4" type="number" name="age-bracket-female-col-4"></td>
-		<td><span class="ui transparent disabled input"><input id="age-bracket-col-4-total"></span></td>
+		<td><span class="ui transparent disabled input"><input class="n-value-total" id="age-bracket-col-4-total"></span></td>
 		<td></td>
 		<td><span class="padding-seventy">15—19</span></td>
 		<td><input class="no-teenage-pregnancy" type="number" name="no-teenage-pregnancy-15-19"></td>
@@ -53,7 +53,7 @@
 		<td><span class="padding-twenty-five">12—15</span></td>
 		<td><input class="value-5" type="number" name="age-bracket-male-col-5"></td>
 		<td><input class="value-5" type="number" name="age-bracket-female-col-5"></td>
-		<td><span class="ui transparent disabled input"><input id="age-bracket-col-5-total"></span></td>
+		<td><span class="ui transparent disabled input"><input class="n-value-total" id="age-bracket-col-5-total"></span></td>
 		<td></td>
 		<td><span class="padding-seventy"><strong>Total</span></strong></td>
 		<td><span class="ui transparent disabled input"><input id="no-teenage-pregnancy-total"></span></td>
@@ -62,7 +62,7 @@
 		<td><span class="padding-twenty-five">16—17</span></td>
 		<td><input class="value-6" type="number" name="age-bracket-male-col-6"></td>
 		<td><input class="value-6" type="number" name="age-bracket-female-col-6"></td>
-		<td><span class="ui transparent disabled input"><input id="age-bracket-col-6-total"></span></td>
+		<td><span class="ui transparent disabled input"><input class="n-value-total" id="age-bracket-col-6-total"></span></td>
 		<td></td>
 		<td colspan="4"><span class="padding-twenty-five"><strong>No. of Infant Deaths</strong></span></td>
 	</tr>
@@ -70,7 +70,7 @@
 		<td><span class="padding-twenty-five">18—35</span></td>
 		<td><input class="value-7" type="number" name="age-bracket-male-col-7"></td>
 		<td><input class="value-7" type="number" name="age-bracket-female-col-7"></td>
-		<td><span class="ui transparent disabled input"><input id="age-bracket-col-7-total"></span></td>
+		<td><span class="ui transparent disabled input"><input class="n-value-total" id="age-bracket-col-7-total"></span></td>
 		<td></td>
 		<td><span class="padding-seventy">Male</span></td>
 		<td><input class="no-infant-deaths" type="number" name="no-infant-deaths-male"></td>
@@ -79,7 +79,7 @@
 		<td><span class="padding-twenty-five">36—64</span></td>
 		<td><input class="value-8" type="number" name="age-bracket-male-col-8"></td>
 		<td><input class="value-8" type="number" name="age-bracket-female-col-8"></td>
-		<td><span class="ui transparent disabled input"><input id="age-bracket-col-8-total"></span></td>
+		<td><span class="ui transparent disabled input"><input class="n-value-total" id="age-bracket-col-8-total"></span></td>
 		<td></td>
 		<td><span class="padding-seventy">Female</span></td>
 		<td><input class="no-infant-deaths" type="number" name="no-infant-deaths-female"></td>
@@ -88,7 +88,7 @@
 		<td><span class="padding-twenty-five">65 & above</span></td>
 		<td><input class="value-9" type="number" name="age-bracket-male-col-9"></td>
 		<td><input class="value-9" type="number" name="age-bracket-female-col-9"></td>
-		<td><span class="ui transparent disabled input"><input id="age-bracket-col-9-total"></span></td>
+		<td><span class="ui transparent disabled input"><input class="n-value-total" id="age-bracket-col-9-total"></span></td>
 		<td></td>
 		<td><span class="padding-seventy"><strong>Total</strong></span></td>
 		<td><span class="ui transparent disabled input"><input id="no-infant-deaths-total"></span></td>
@@ -98,7 +98,7 @@
 		<!-- Fetch from DB::get() -->
 		<td>Display Male Total</td>
 		<td>Display Female Total</td>
-		<td>Display Total MFT</td>
+		<td><span class="ui transparent disabled input"><input id="total-value-n"></span></td>
 		<td></td>
 		<td colspan="4"><span class="padding-twenty-five"><strong>No. of Under 5 Deaths</strong></span></td>
 	</tr>
@@ -184,7 +184,7 @@
 		<td><span class="ui transparent disabled input"><input id="no-malnourished-children-total"></span></td>
 	</tr>
 	<tr>
-		<td colspan="3"><span class="padding-twenty-five"><strong>Total Population</strong> (<em>18 y.o. & over</em>)</span></td>
+		<td colspan="3" class="disabled"><span class="padding-twenty-five"><strong>Total Population</strong> (<em>18 y.o. & over</em>)</span></td>
 		<td>Display Total</td>
 		<td></td>
 		<td colspan="4"></td>
@@ -205,36 +205,59 @@
 		<td></td>
 	</tr>
 	<tr>
-		<td colspan="3"><span class="padding-twenty-five">Below 6,000 <em>(Food Threshold)</em></span></td>
-		<td><input type="number" name="hh-income-below-6k"></td>
-		<td></td>
+		<!-- Start HHousehold Income per Month Radio Checkbox -->
+		<td colspan="4" rowspan="6">
+			<div class="grouped fields padding-fourty-five">
+				<div class="field">
+					<div class="ui radio checkbox">
+						<input type="radio" name="hh-income-per-month-radio" value="1">
+						<label>Below 6,000 <em>(Food Threshold)</em></label>
+					</div>
+				</div>
+				<div class="field">
+					<div class="ui radio checkbox">
+						<input type="radio" name="hh-income-per-month-radio" value="2">
+						<label>Below 8,000 <em>(Poverty Threshold)</em></label>
+					</div>
+				</div>
+				<div class="field">
+					<div class="ui radio checkbox">
+						<input type="radio" name="hh-income-per-month-radio" value="3">
+						<label>8,001—15,000</label>
+					</div>
+				</div>
+				<div class="field">
+					<div class="ui radio checkbox">
+						<input type="radio" name="hh-income-per-month-radio" value="4">
+						<label>15,001—20,000</label>
+					</div>
+				</div>
+				<div class="field">
+					<div class="ui radio checkbox">
+						<input type="radio" name="hh-income-per-month-radio" value="5">
+						<label>20,001 and over</label>
+					</div>
+				</div>
+			</div>	
+		</td><!-- ~./End HHousehold Income per Month Radio Checkbox -->
+		<td rowspan="6"></td>
+	</tr>
+	<tr>
 		<td><span class="padding-seventy">Male</span></td>
 		<td><input class="no-children-no-vaccine" type="number" name="no-children-no-vaccine-male"></td>
 	</tr>
 	<tr>
-		<td colspan="3"><span class="padding-twenty-five">Below 8,000 <em>(Poverty Threshold)</em></span></td>
-		<td><input type="number" name="hh-income-below-8k"></td>
-		<td></td>
 		<td><span class="padding-seventy">Female</span></td>
 		<td><input class="no-children-no-vaccine" type="number" name="no-children-no-vaccine-female"></td>
 	</tr>
 	<tr>
-		<td colspan="3"><span class="padding-twenty-five">8,001—15,000</span></td>
-		<td><input type="number" name="hh-income-8k-15k"></td>
-		<td></td>
 		<td><span class="padding-seventy"><strong>Total</strong></span></td>
 		<td><span class="ui transparent disabled input"><input id="no-children-no-vaccine-total"></span></td>
 	</tr>
 	<tr>
-		<td colspan="3"><span class="padding-twenty-five">15,001—20,000</span></td>
-		<td><input type="number" name="hh-income-15k-20k"></td>
-		<td></td>
 		<td colspan="4"></td>
 	</tr>
 	<tr>
-		<td colspan="3"><span class="padding-twenty-five">20,001 and over</span></td>
-		<td><input type="number" name="hh-income-over-20k"></td>
-		<td></td>
 		<td colspan="4"><span class="padding-twenty-five"><strong>HH Sanitation Practices</strong></span></td>
 	</tr>
 	<tr>
@@ -242,46 +265,46 @@
 		<td>Display Total</td>
 		<td></td>
 		<td><span class="padding-fourty-five"></span>No. of HH's w/ water sealed / flushed toilets</td>
-		<td><input type="number" name="sanitation-practices-flushed-toilets"></td>
+		<td><input class="sanitation-practices" type="number" name="sanitation-practices-flushed-toilets"></td>
 	</tr>
 	<tr>
 		<td colspan="4"><span class="padding-fifteen"><strong>Sources of Income of the HH's</strong></span></td>
 		<td></td>
 		<td><span class="padding-fourty-five">No. of HH's w/ antipolo with / out cover</span></td>
-		<td><input type="number" name="sanitation-practices-antipolo"></td>
+		<td><input class="sanitation-practices" type="number" name="sanitation-practices-antipolo"></td>
 	</tr>
 	<tr>
 		<td colspan="3"><span class="padding-twenty-five">Agriculture <em>(Farming)</em></span></td>
-		<td><input type="number" name="sources-income-agriculture"></td>
+		<td><span class="checkbox-padding"><input class="ui checkbox" type="checkbox" name="sources-income-agriculture"></span></td>
 		<td></td>
 		<td><span class="padding-fourty-five">No. of HH's w/ no toilet</span></td>
-		<td><input type="number" name="sanitation-practices-no-toilet"></td>
+		<td><input class="sanitation-practices" type="number" name="sanitation-practices-no-toilet"></td>
 	</tr>
 	<tr>
 		<td colspan="3"><span class="padding-twenty-five">Commerce & Trade <em>(wholesale, retail)</em></span></td>
-		<td><input type="number" name="sources-income-commerce-trade"></td>
+		<td><span class="checkbox-padding"><input class="ui checkbox" type="checkbox" name="sources-income-commerce-trade"></span></td>
 		<td></td>
 		<td><span class="padding-fourty-five"><strong>Total No. of HH's</strong></span></td>
-		<td>Display Total</td>
+		<td><span class="ui transparent disabled input"><input id="sanitation-practices-total"></span></td>
 	</tr>
 	<tr>
 		<td colspan="3"><span class="padding-twenty-five">Manufacturing / Processing</span></td>
-		<td><input type="number" name="sources-income-commerce-trade"></td>
+		<td><span class="checkbox-padding"><input class="ui checkbox" type="checkbox" name="sources-income-commerce-trade"></span></td>
 		<td></td>
 		<td colspan="4"></td>
 	</tr>
 	<tr>
 		<td colspan="3"><span class="padding-twenty-five">Services <em>(wage earners)</em></span></td>
-		<td><input type="number" name="sources-income-services"></td>
+		<td><span class="checkbox-padding"><input class="ui checkbox" type="checkbox" name="sources-income-services"></span></td>
 		<td></td>
 		<td colspan="4"><span class="padding-twenty-five"><strong>HH Access to Potable Water</strong></span></td>
 	</tr>
 	<tr>
 		<td colspan="3"><span class="padding-twenty-five">Pension</span></td>
-		<td><input type="number" name="sources-income-pernsion"></td>
+		<td><span class="checkbox-padding"><input class="ui checkbox" type="checkbox" name="sources-income-pernsion"></span></td>
 		<td></td>
 		<td><span class="padding-fourty-five">Level I <em>(deep well, spring, jetmatic)</em></span></td>
-		<td><input type="number" name="potable-water-level-one"></td>
+		<td><span class="checkbox-padding-pw"><input class="ui checkbox" type="checkbox" name="potable-water-level-one"></span></td>
 	</tr>
 </tr>
 <tr>
@@ -289,19 +312,19 @@
 	<td>Display Total</td>
 	<td></td>
 	<td><span class="padding-fourty-five">Level II <em>(developed spring w/ reservoir)</em></span></td>
-	<td><input type="number" name="potable-water-level-two"></td>
+	<td><span class="checkbox-padding-pw"><input class="ui checkbox" type="checkbox" name="potable-water-level-two"></span></td>
 </tr>
 <tr>
 	<td colspan="4"><span class="padding-fifteen"><strong>Household Food Security</strong></span></td>
 	<td></td>
 	<td><span class="padding-fourty-five">Level III <em>(with house connection)</em></span></td>
-	<td><input type="number" name="potable-water-level-three"></td>
+	<td><span class="checkbox-padding-pw"><input class="ui checkbox" type="checkbox" name="potable-water-level-three"></span></td>
 </tr>
 <tr>
 	<td colspan="4"><span class="padding-twenty-five"><strong>Availability of food 3x/day for the next 3 days</strong></span></td>
 	<td></td>
 	<td><span class="padding-fourty-five">Bawasa / DCWD</span></td>
-	<td><input type="number" name="potable-water-bawasa-dcwd"></td>
+	<td><span class="checkbox-padding-pw"><input class="ui checkbox" type="checkbox" name="potable-water-bawasa-dcwd"></span></td>
 </tr>
 <!-- Start Radio Checkbox -->
 <tr>
@@ -323,7 +346,7 @@
 	</td>
 	<td></td>
 	<td><span class="padding-fourty-five">DCWD Peddling</span></td>
-	<td><input type="number" name="potable-water-dcwd-peddling"></td>
+	<td><span class="checkbox-padding-pw"><input class="ui checkbox" type="checkbox" name="potable-water-dcwd-peddling"></span></td>
 </tr><!-- ~./End Radio Checkbox -->
 <tr>
 	<td colspan="3"><span class="padding-twenty-five"><strong>Total No. of HH's</strong></span></td>

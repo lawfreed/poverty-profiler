@@ -8,7 +8,7 @@
 	<div class="ui content">
 		<div class="ui equal width form">
 			<form method="POST" action="scripts/insert_novel.php">
-				<div class="ui fields">
+				<div class="fields">
 					<div class="field">
 						<div class="ui left corner labeled input">
 							<input type="text" placeholder="Enter Household Name" required="true">
